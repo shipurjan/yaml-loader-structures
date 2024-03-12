@@ -29,7 +29,7 @@ export default async function Home() {
 
   return (
     <main className="flex flex-wrap min-h-screen items-start p-8 gap-8">
-      <YamlExample filename='test.yml' plainTextFile={plain} title={'Custom example'} loadedObject={example}/>
+      <YamlExample filename='test.yml' plainTextFile={plain} title={'Cell example'} loadedObject={example}/>
       <YamlExample filename='2.7.yml' plainTextFile={plain2_7} title={'Example 2.7'} loadedObject={example2_7}/>
       <YamlExample filename='2.8.yml' plainTextFile={plain2_8} title={'Example 2.8'} loadedObject={example2_8}/>
       <YamlExample filename='2.9.yml' plainTextFile={plain2_9} title={'Example 2.9'} loadedObject={example2_9}/>
