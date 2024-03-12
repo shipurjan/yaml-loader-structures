@@ -5,9 +5,9 @@ import example from '@/yaml/test.yml?stream'
 import example2_7 from '@/yaml/2.7.yml?stream'
 import example2_8 from '@/yaml/2.8.yml?stream'
 import example2_9 from '@/yaml/2.9.yml?stream'
-import example2_10 from '@/yaml/2.10.yml'
-import example2_11 from '@/yaml/2.11.yml'
-import example2_12 from '@/yaml/2.12.yml'
+import example2_10 from '@/yaml/2.10.yml?stream'
+import example2_11 from '@/yaml/2.11.yml?stream'
+import example2_12 from '@/yaml/2.12.yml?stream'
 
 
 async function getData() {
